@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-wc-vue": "vue-cli-service build --target wc --name pizza-ordering --dest dist/Pizza_Ordering_Wc src/components/PizzaBooking.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
